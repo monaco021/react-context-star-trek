@@ -1,4 +1,7 @@
+// imports
+
 const Card = ({ imgUrl, content}) => {
+  // Need content and imgUrl
   return (
     <div className="card">
       <div className="card-image">

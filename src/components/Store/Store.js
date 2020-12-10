@@ -1,5 +1,5 @@
 import Card from "../Card";
-import { initialCards, initialInventory } from "../../mockdata/CardData";
+import { initialCards, initialInventory, initialDecks } from "../../mockdata/CardData";
 
 const Store = () => {
   const buyCard = (cardId) => console.log('Buy Card Coming Soon', cardId);
